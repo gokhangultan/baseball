@@ -4,39 +4,123 @@ import React, { useState } from "react";
 import Team from "./Team";
 import Companies from "../components/Companies";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import {
+  faDiscord,
+  faTelegram,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function About() {
   return (
-    <div className="mt-5 ">
-      <div>
-        <div className="flex lg:flex-row flex-col container  ">
-          <div className="  flex flex-col  gap-4  basis-3/4 justify-center ">
-            <h5 className="font-bold text-base leading-6 text-[#252B42]">
-              Cozum Sigorta
-            </h5>
-            <h1 className="font-bold text-6xl leading-[80px] text-[#252B42]">
-              Hakkımızda
-            </h1>
-            <h4 className="text-xl text-secondaryColor leading-7">
+    <div className=" bg-[#242424] text-white  ">
+      <section className="base-ball container ">
+        <div className="flex flex-col md:flex-row gap-5 items-center">
+          <img
+            src="/baseball-mlb.gif"
+            className="rounded-lg w-[300px] lg:w-[600px] "
+          ></img>
+          <div className="flex-col flex items-center text-center gap-3 justify-center ">
+            <h1 className="font-bold text-4xl">About $BALL</h1>
+            <h2 className="font-bold text-2xl text-[#0251fc]">
+              Lorem ipsum proin gravida nibh vel velit auctor aliquet.
+            </h2>
+            <p>
               Firmamız 1993 yılında İzmir'de Sami Zeybek ve Vildan Zeybek
               tarafından OYAK Sigorta Acenteliği olarak kurulmuştur. Kurulduğu
               günden beri sektörün öncü şirketlerinin acenteliğini yapmıştır.
               Güncel olarak İzmir'de profesyonel olarak acenteliğe devam
               etmektedir.
-            </h4>
-            <div>
-              <Link to="/contact">
-                <button className="bg-[#203682] px-5 py-3 rounded-md text-white  hover:bg-gray-300">
-                  İletişim
-                </button>
-              </Link>
+            </p>
+            <div className="flex flex-col sm:flex-row gap-2">
+              <button
+                className="flex flex-row gap-2  p-3 rounded-full bg-[#0251fc]"
+                onClick={() => (window.location.href = "tel:+902324842829")}
+              >
+                <FontAwesomeIcon
+                  icon={faDiscord}
+                  className="text-2xl "
+                  style={{ color: "#ffffff" }}
+                />{" "}
+              </button>
+              <button
+                className="flex flex-row gap-2  p-3 rounded-full bg-[#0251fc]"
+                onClick={() =>
+                  (window.location.href = "mailto:bilgi@sigortacozum.com.tr")
+                }
+              >
+                <FontAwesomeIcon
+                  icon={faTelegram}
+                  className="text-2xl "
+                  style={{ color: "#ffffff" }}
+                />
+              </button>
+              <button
+                className="flex flex-row gap-2  p-3 rounded-full bg-[#0251fc]"
+                onClick={() => (window.location.href = "tel:+905554801111")}
+              >
+                <FontAwesomeIcon
+                  icon={faTwitter}
+                  className="text-2xl "
+                  style={{ color: "#ffffff" }}
+                />{" "}
+              </button>
             </div>
           </div>
-          <div className=" ">
-            <img src="aboutus2.png" className="" />
-          </div>
         </div>
-      </div>
+        <div className="flex flex-col md:flex-row gap-5 items-center">
+          <div className="flex-col flex items-center text-center gap-3 justify-center ">
+            <h1 className="font-bold text-4xl">About $BALL</h1>
+            <h2 className="font-bold text-2xl text-[#0251fc]">
+              Lorem ipsum proin gravida nibh vel velit auctor aliquet.
+            </h2>
+            <p>
+              Firmamız 1993 yılında İzmir'de Sami Zeybek ve Vildan Zeybek
+              tarafından OYAK Sigorta Acenteliği olarak kurulmuştur. Kurulduğu
+              günden beri sektörün öncü şirketlerinin acenteliğini yapmıştır.
+              Güncel olarak İzmir'de profesyonel olarak acenteliğe devam
+              etmektedir.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-2">
+              <button
+                className="flex flex-row gap-2  p-3 rounded-full bg-[#0251fc]"
+                onClick={() => (window.location.href = "tel:+902324842829")}
+              >
+                <FontAwesomeIcon
+                  icon={faDiscord}
+                  className="text-2xl "
+                  style={{ color: "#ffffff" }}
+                />{" "}
+              </button>
+              <button
+                className="flex flex-row gap-2  p-3 rounded-full bg-[#0251fc]"
+                onClick={() =>
+                  (window.location.href = "mailto:bilgi@sigortacozum.com.tr")
+                }
+              >
+                <FontAwesomeIcon
+                  icon={faTelegram}
+                  className="text-2xl "
+                  style={{ color: "#ffffff" }}
+                />
+              </button>
+              <button
+                className="flex flex-row gap-2  p-3 rounded-full bg-[#0251fc]"
+                onClick={() => (window.location.href = "tel:+905554801111")}
+              >
+                <FontAwesomeIcon
+                  icon={faTwitter}
+                  className="text-2xl "
+                  style={{ color: "#ffffff" }}
+                />{" "}
+              </button>
+            </div>
+          </div>
+          <img
+            src="/baseball-run.gif"
+            className="rounded-lg w-[300px] lg:w-[600px] "
+          ></img>
+        </div>
+      </section>
       <div className="container collection-text">
         <div className="pt-[100px]  ">
           <p className="text-sm leading-5 text-[#E74040] mb-3">
@@ -97,7 +181,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="bg-[#FAFAFA] py-[100px] ">
+      <div className="bg-[#242424] text-white  py-[100px] ">
         <div className="flex flex-col text-center gap-5  ">
           <h2 className="text-[#252B42] font-bold text-[40px] leading-[40px]">
             Big Companies Are Here
@@ -107,34 +191,8 @@ export default function About() {
             of Classical physics: Newtonian mechanics
           </p>
         </div>
-        <div className="bg-[#FAFAFA] py-5 ">
+        <div className="py-5">
           <Companies />
-        </div>
-      </div>
-
-      <div className="flex flex-col md:flex-row justify-between bg-[#2A7CC7] px-[50px] md:px-[200px]">
-        <div className="flex-col  basis-1/3 flex justify-center gap-4 mx-20 sm:mx-40 py-5 collection-text ">
-          <h5 className="text-sm font-bold text-white leading-6">
-            WORK WITH US
-          </h5>
-          <h2 className="font-bold leading-[50px] text-[40px] text-white">
-            Now Let’s grow Yours
-          </h2>
-          <p className="text-sm leading-5 text-white">
-            The gradual accumulation of information about atomic and small-scale
-            behavior during the first quarter of the 20th{" "}
-          </p>
-          <div>
-            <button className="border-1 border-white px-4 py-2 rounded-md text-white sm:w-[193px] w-[123px] h-[52px] hover:bg-gray-300 hover:text-primaryColor">
-              Button
-            </button>
-          </div>
-        </div>
-        <div className="justify-end flex items-end">
-          <img
-            src="aboutus.jpg"
-            className="md:w-[590px] w-full h-[640px] hidden md:flex "
-          />
         </div>
       </div>
     </div>
