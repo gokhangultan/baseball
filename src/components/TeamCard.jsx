@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function CategoryCard() {
   return (
-    <div className="shadow-sm bg-[#FFFFFF] w-[305px] md:h-[383px] h-[483px] border-2 ">
+    <div className="shadow-sm bg-gray-300 w-[305px] md:h-[383px] h-[483px] border-2 ">
       <img
         src="team1.png"
         className="md:w-[316px] md:h-[231px] w-[305px] h-[323px]"

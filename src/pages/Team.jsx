@@ -2,7 +2,7 @@ import TeamCard from "../components/TeamCard";
 
 export default function Team() {
   return (
-    <div className="flex-col flex items-center mt-10 pb-10 gap-3 ">
+    <div className="flex-col flex items-center gap-3 bg-[#242424] text-white">
       <div className="w-[300px] mb-5 flex flex-col gap-3">
         <h2 className="font-bold text-4xl text-center">Meet Our Team</h2>
         <p className="text-sm leading-5 text-secondaryColor text-center">

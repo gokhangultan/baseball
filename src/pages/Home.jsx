@@ -1,5 +1,4 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import Carousel from "../components/Carousel";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import {
   Accordion,
@@ -10,19 +9,13 @@ import {
   Table,
 } from "reactstrap";
 import { useState } from "react";
-import {
-  faArrowRightArrowLeft,
-  faMailBulk,
-  faMobilePhone,
-  faPhone,
-} from "@fortawesome/free-solid-svg-icons";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faDiscord,
   faTelegram,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import { PieChart } from "react-minimal-pie-chart";
 
 export default function Home() {
   const [open, setOpen] = useState("");
@@ -77,7 +70,7 @@ export default function Home() {
         </div>
         <div className="offers flex flex-col sm:flex-row justify-between gap-5 container">
           <div className="flex flex-col items-center text-center gap-4">
-            <img src="/icon1.png" className="object-contain w-[84px]" />
+            <img src="/baseball22.png" className="object-contain w-[84px] bg-[#0251fc] rounded-full p-2" />
             <h5 className="header-nav text-lg tracking-widest ">Title1</h5>
             <p className="font-sans text-base tracking-widest">
               Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean
@@ -85,7 +78,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col items-center text-center gap-4">
-            <img src="/icon2.png" className="object-contain w-[84px]" />
+            <img src="/baseball.png" className="object-contain w-[84px] bg-white rounded-full p-2" />
             <h5 className="header-nav text-lg tracking-widest ">Title2</h5>
             <p className="font-sans text-base tracking-widest">
               Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean
@@ -93,7 +86,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col items-center text-center gap-4">
-            <img src="/icon3.png" className="object-contain w-[84px]" />
+            <img src="/baseball-field.png" className="object-contain w-[84px] bg-[#0251fc] rounded-full p-2" />
             <h5 className="header-nav text-lg tracking-widest ">Title3</h5>
             <p className="font-sans text-base tracking-widest">
               Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean
@@ -101,7 +94,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col items-center text-center gap-4">
-            <img src="/icon4.png" className="object-contain w-[84px]" />
+            <img src="/baseball-player.png" className="object-contain w-[84px] bg-white rounded-full p-2" />
             <h5 className="header-nav text-lg tracking-widest ">Title4</h5>
             <p className="font-sans text-base tracking-widest">
               Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean
@@ -110,7 +103,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <section className="about-us container my-10">
+      <section className="about-us container my-10 py-5">
         <div className="flex flex-col md:flex-row gap-5 items-center">
           <img
             src="/giphy-unscreen.gif"
@@ -128,7 +121,7 @@ export default function Home() {
               Güncel olarak İzmir'de profesyonel olarak acenteliğe devam
               etmektedir.
             </p>
-            0251fc
+            
             <div className="flex flex-col sm:flex-row gap-2">
               <button
                 className="flex flex-row gap-2  p-3 rounded-full bg-[#0251fc]"
@@ -166,52 +159,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="container py-5">
-        <div className="flex flex-col gap-3 justify-center align-middle text-center">
-          <h1 className="font-bold text-4xl">RoadMap</h1>
-          <h2 className=" text-xl text-[#0251fc]">
-            Lorem ipsum proin gravida nibh vel velit auctor aliquet. Lorem ipsum
-            proin gravida nibh vel velit auctor aliquet. Lorem ipsum proin
-            gravida nibh vel velit auctor aliquet. Lorem ipsum proin gravida
-            nibh vel velit auctor aliquet. Lorem ipsum proin gravida nibh vel
-            velit auctor aliquet.
-          </h2>
-          <div className="text-center">PRESALE</div>
-          <Progress multi>
-            <Progress animated bar color="success" value="20" />
-            <Progress animated bar color="info" value="25" />
-            <Progress animated bar color="warning" value="20" />
-            <Progress animated bar color="danger" value="45" />
-          </Progress>
-          <div className="text-center">With Labels</div>
-          <Progress multi>
-            <Progress bar value="15">
-              <h2 className="text-xl font-bold">Meh</h2>
-            </Progress>
-            <Progress animated bar color="success" value="35">
-              <h2 className="text-xl font-bold"> Wow!</h2>
-            </Progress>
-            <Progress animated bar color="warning" value="25">
-              <h2 className="text-xl font-bold"> %25</h2>
-            </Progress>
-            <Progress animated bar color="danger" value="25">
-              <h2 className="text-xl font-bold"> %100 SOLD OUT!</h2>
-            </Progress>
-          </Progress>
-          <div className="text-center">Stripes and Animations</div>
-          <Progress multi>
-            <Progress bar striped value="15">
-              <h2 className="text-xl font-bold"> PROGRESS</h2>
-            </Progress>
-            <Progress animated bar color="success" value="50">
-              <h2 className="text-xl font-bold"> %100 SOLD OUT!</h2>
-            </Progress>
-            <Progress animated bar color="info" value="35">
-              <h2 className="text-xl font-bold"> PLAIN</h2>
-            </Progress>
-          </Progress>
-        </div>
-      </section>
+    
+      <img src="./baseballers.png"  className="py-5"/>
       <section className="container py-5">
         <div className="text-center flex flex-col gap-2 justify-center py-2 items-center">
           <h1 className="font-bold text-4xl">TOKENOMICS</h1>

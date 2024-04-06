@@ -1,9 +1,8 @@
-import { faPlay } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
-import Team from "./Team";
-import Companies from "../components/Companies";
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import {
+  Progress
+} from "reactstrap";
 import {
   faDiscord,
   faTelegram,
@@ -192,7 +191,52 @@ export default function About() {
           </p>
         </div>
         <div className="py-5">
-          <Companies />
+        <section className="container py-5">
+        <div className="flex flex-col gap-3 justify-center align-middle text-center">
+          <h1 className="font-bold text-4xl">RoadMap</h1>
+          <h2 className=" text-xl text-[#0251fc]">
+            Lorem ipsum proin gravida nibh vel velit auctor aliquet. Lorem ipsum
+            proin gravida nibh vel velit auctor aliquet. Lorem ipsum proin
+            gravida nibh vel velit auctor aliquet. Lorem ipsum proin gravida
+            nibh vel velit auctor aliquet. Lorem ipsum proin gravida nibh vel
+            velit auctor aliquet.
+          </h2>
+          <div className="text-center">PRESALE</div>
+          <Progress multi>
+            <Progress animated bar color="success" value="20" />
+            <Progress animated bar color="info" value="25" />
+            <Progress animated bar color="warning" value="20" />
+            <Progress animated bar color="danger" value="45" />
+          </Progress>
+          <div className="text-center">With Labels</div>
+          <Progress multi>
+            <Progress bar value="15">
+              <h2 className="text-xl font-bold">Meh</h2>
+            </Progress>
+            <Progress animated bar color="success" value="35">
+              <h2 className="text-xl font-bold"> Wow!</h2>
+            </Progress>
+            <Progress animated bar color="warning" value="25">
+              <h2 className="text-xl font-bold"> %25</h2>
+            </Progress>
+            <Progress animated bar color="danger" value="25">
+              <h2 className="text-xl font-bold"> %100 SOLD OUT!</h2>
+            </Progress>
+          </Progress>
+          <div className="text-center">Stripes and Animations</div>
+          <Progress multi>
+            <Progress bar striped value="15">
+              <h2 className="text-xl font-bold"> PROGRESS</h2>
+            </Progress>
+            <Progress animated bar color="success" value="50">
+              <h2 className="text-xl font-bold"> %100 SOLD OUT!</h2>
+            </Progress>
+            <Progress animated bar color="info" value="35">
+              <h2 className="text-xl font-bold"> PLAIN</h2>
+            </Progress>
+          </Progress>
+        </div>
+      </section>
         </div>
       </div>
     </div>
