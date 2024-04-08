@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import {
   faBars,
   faBaseball,
   faBaseballBatBall,
   faExchange,
+  faVolumeHigh,
+  faVolumeXmark,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
@@ -14,8 +16,25 @@ export default function Header() {
   const toggleNavVisibility = () => {
     setIsNavVisible(!isNavVisible);
   };
+
+  const audioRef = useRef(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const togglePlay = () => {
+    if (isPlaying) {
+      audioRef.current.pause();
+    } else {
+      audioRef.current.play();
+    }
+    setIsPlaying(!isPlaying);
+  };
+
   return (
     <div className="bg-[#242424] text-white py-2">
+      <div>
+        <audio ref={audioRef} src="sound.mp3" id="player" autoPlay loop />
+      </div>
+
       <div className="container ">
         <div className="flex flex-col sm:flex-row gap-5 items-center justify-between">
           <div>
@@ -70,6 +89,15 @@ export default function Header() {
               />
             </button>
             <button
+              onClick={togglePlay}
+            >
+              <FontAwesomeIcon
+                icon={isPlaying ? faVolumeHigh : faVolumeXmark}
+                className="text-2xl "
+                style={{ color: "#203682" }}
+              />
+            </button>
+            <button
               className="flex lg:hidden text-2xl"
               onClick={toggleNavVisibility}
               style={{ color: "#203682" }}
@@ -79,9 +107,8 @@ export default function Header() {
           </div>
         </div>
         <nav
-          className={` mobile-menu flex flex-col justify-between gap-3 items-center my-2 header-nav ${
-            isNavVisible ? "" : "hidden"
-          }`}
+          className={` mobile-menu flex flex-col justify-between gap-3 items-center my-2 header-nav ${isNavVisible ? "" : "hidden"
+            }`}
         >
           <Link to="/">
             {" "}

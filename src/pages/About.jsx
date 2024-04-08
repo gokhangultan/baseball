@@ -128,7 +128,7 @@ export default function About() {
 
           <div className="flex md:flex-row flex-col justify-between gap-[80px]">
             <div className="flex basis-1/3">
-              <h3 className="font-bold text-2xl leading-8 text-[#252B42]">
+              <h3 className="font-bold text-2xl leading-8 text-[#0251fc]">
                 Met minim Mollie non desert Alamo est sit cliquey dolor do met
                 sent.
               </h3>
@@ -145,7 +145,7 @@ export default function About() {
         <div className=" text-center py-5 ">
           <div className="flex md:flex-row flex-col gap-3 justify-between">
             <div className="flex-col">
-              <h1 className="font-bold text-6xl leading-[80px] text-[#252B42]">
+              <h1 className="font-bold text-6xl leading-[80px] text-[#0251fc]">
                 15K
               </h1>
               <h5 className="text-base text-secondaryColor font-bold leading-6">
@@ -153,7 +153,7 @@ export default function About() {
               </h5>
             </div>
             <div>
-              <h1 className="font-bold text-6xl leading-[80px] text-[#252B42]">
+              <h1 className="font-bold text-6xl leading-[80px] text-[#0251fc]">
                 150K
               </h1>
               <h5 className="text-base text-secondaryColor font-bold leading-6">
@@ -161,7 +161,7 @@ export default function About() {
               </h5>
             </div>
             <div>
-              <h1 className="font-bold text-6xl leading-[80px] text-[#252B42]">
+              <h1 className="font-bold text-6xl leading-[80px] text-[#0251fc]">
                 15
               </h1>
               <h5 className="text-base text-secondaryColor font-bold leading-6">
@@ -169,7 +169,7 @@ export default function About() {
               </h5>
             </div>
             <div>
-              <h1 className="font-bold text-6xl leading-[80px] text-[#252B42]">
+              <h1 className="font-bold text-6xl leading-[80px] text-[#0251fc]">
                 100+
               </h1>
               <h5 className="text-base text-secondaryColor font-bold leading-6">
@@ -182,7 +182,7 @@ export default function About() {
 
       <div className="bg-[#242424] text-white  py-[100px] ">
         <div className="flex flex-col text-center gap-5  ">
-          <h2 className="text-[#252B42] font-bold text-[40px] leading-[40px]">
+          <h2 className="text-[#0251fc] font-bold text-[40px] leading-[40px]">
             Big Companies Are Here
           </h2>
           <p className="text-sm text-secondaryColor leading-5 ">
@@ -191,52 +191,83 @@ export default function About() {
           </p>
         </div>
         <div className="py-5">
-        <section className="container py-5">
-        <div className="flex flex-col gap-3 justify-center align-middle text-center">
-          <h1 className="font-bold text-4xl">RoadMap</h1>
-          <h2 className=" text-xl text-[#0251fc]">
-            Lorem ipsum proin gravida nibh vel velit auctor aliquet. Lorem ipsum
-            proin gravida nibh vel velit auctor aliquet. Lorem ipsum proin
-            gravida nibh vel velit auctor aliquet. Lorem ipsum proin gravida
-            nibh vel velit auctor aliquet. Lorem ipsum proin gravida nibh vel
-            velit auctor aliquet.
-          </h2>
-          <div className="text-center">PRESALE</div>
-          <Progress multi>
-            <Progress animated bar color="success" value="20" />
-            <Progress animated bar color="info" value="25" />
-            <Progress animated bar color="warning" value="20" />
-            <Progress animated bar color="danger" value="45" />
-          </Progress>
-          <div className="text-center">With Labels</div>
-          <Progress multi>
-            <Progress bar value="15">
-              <h2 className="text-xl font-bold">Meh</h2>
-            </Progress>
-            <Progress animated bar color="success" value="35">
-              <h2 className="text-xl font-bold"> Wow!</h2>
-            </Progress>
-            <Progress animated bar color="warning" value="25">
-              <h2 className="text-xl font-bold"> %25</h2>
-            </Progress>
-            <Progress animated bar color="danger" value="25">
-              <h2 className="text-xl font-bold"> %100 SOLD OUT!</h2>
-            </Progress>
-          </Progress>
-          <div className="text-center">Stripes and Animations</div>
-          <Progress multi>
-            <Progress bar striped value="15">
-              <h2 className="text-xl font-bold"> PROGRESS</h2>
-            </Progress>
-            <Progress animated bar color="success" value="50">
-              <h2 className="text-xl font-bold"> %100 SOLD OUT!</h2>
-            </Progress>
-            <Progress animated bar color="info" value="35">
-              <h2 className="text-xl font-bold"> PLAIN</h2>
-            </Progress>
-          </Progress>
-        </div>
-      </section>
+          <section className="container py-5">
+            <div className="flex flex-col gap-3 justify-center align-middle text-center">
+              <h1 className="font-bold text-4xl">RoadMap</h1>
+              <h2 className=" text-xl text-[#0251fc]">
+                Ready to knock it out of the park with the funkiest team in the crypto league? BASEBALLERS is leading the game, rallying a squad of 1000 BASE-loving degens who play $BALL on the base chain.
+              </h2>
+              <div className="text-center">Phase 0</div>
+              <Progress multi>
+                <Progress animated bar color="success" value="100" >
+                  <h2 className="text-xl font-bold">Token2049 Penthouse Base Party</h2>
+                </Progress>
+              </Progress>
+              <div className="text-center">Phase 1</div>
+              <Progress multi>
+                <Progress animated bar color="success" value="100" >
+                  <h2 className="text-xl font-bold">Community Take Over</h2>
+                </Progress>
+              </Progress>
+              <div className="text-center">Phase 2</div>
+              <Progress multi>
+                <Progress animated bar color="success" value="100" >
+                  <h2 className="text-xl font-bold">Organic Growth</h2>
+                </Progress>
+              </Progress>
+              <div className="text-center">Phase 3</div>
+              <Progress multi>
+                <Progress animated bar color="danger" value="100" >
+                  <h2 className="text-xl font-bold">Development</h2>
+                </Progress>
+              </Progress>
+              <div className="text-center">Phase 4</div>
+              <Progress multi>
+                <Progress animated bar color="danger" value="100" >
+                  <h2 className="text-xl font-bold">Base Take Over</h2>
+                </Progress>
+              </Progress>
+              <div className="text-center">Phase 5</div>
+              <Progress multi>
+                <Progress animated bar color="danger" value="100" >
+                  <h2 className="text-xl font-bold">Airdrop</h2>
+                </Progress>
+              </Progress>
+
+              {
+                /*
+<div className="text-center">With Labels</div>
+              <Progress multi>
+                <Progress bar value="15">
+                  <h2 className="text-xl font-bold">Meh</h2>
+                </Progress>
+                <Progress animated bar color="success" value="35">
+                  <h2 className="text-xl font-bold"> Wow!</h2>
+                </Progress>
+                <Progress animated bar color="warning" value="25">
+                  <h2 className="text-xl font-bold"> %25</h2>
+                </Progress>
+                <Progress animated bar color="danger" value="25">
+                  <h2 className="text-xl font-bold"> %100 SOLD OUT!</h2>
+                </Progress>
+              </Progress>
+              <div className="text-center">Stripes and Animations</div>
+              <Progress multi>
+                <Progress bar striped value="15">
+                  <h2 className="text-xl font-bold"> PROGRESS</h2>
+                </Progress>
+                <Progress animated bar color="success" value="50">
+                  <h2 className="text-xl font-bold"> %100 SOLD OUT!</h2>
+                </Progress>
+                <Progress animated bar color="info" value="35">
+                  <h2 className="text-xl font-bold"> PLAIN</h2>
+                </Progress>
+              </Progress>
+                */
+              }
+
+            </div>
+          </section>
         </div>
       </div>
     </div>

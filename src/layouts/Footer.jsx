@@ -21,8 +21,8 @@ export default function Footer() {
   return (
     <div className="bg-[#242424] text-white">
       <div className="container py-5 ">
-        <div className="flex  justify-center items-center align-middle py-5">
-          <img src="./basedball.png" />
+        <div className="flex justify-center items-center align-middle py-5">
+          <img src="./ballSpin.gif" />
         </div>
         <div className="flex flex-col sm:flex-row justify-between items-center  gap-3">
           <Link to="/">
