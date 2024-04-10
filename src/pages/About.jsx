@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useState } from "react";
 import {
   Progress
 } from "reactstrap";
@@ -33,13 +32,13 @@ export default function About() {
             <div className="flex flex-col sm:flex-row gap-2">
               <button
                 className="flex flex-row gap-2  p-3 rounded-full bg-[#0251fc]"
-                onClick={() => (window.location.href = "tel:+902324842829")}
+                onClick={() => (window.location.href = "https://discord.gg/baseballers")}
               >
                 <FontAwesomeIcon
                   icon={faDiscord}
                   className="text-2xl "
                   style={{ color: "#ffffff" }}
-                />{" "}
+                />
               </button>
               <button
                 className="flex flex-row gap-2  p-3 rounded-full bg-[#0251fc]"
@@ -55,13 +54,13 @@ export default function About() {
               </button>
               <button
                 className="flex flex-row gap-2  p-3 rounded-full bg-[#0251fc]"
-                onClick={() => (window.location.href = "tel:+905554801111")}
+                onClick={() => (window.location.href = "https://twitter.com/baseballersbase")}
               >
                 <FontAwesomeIcon
                   icon={faTwitter}
                   className="text-2xl "
                   style={{ color: "#ffffff" }}
-                />{" "}
+                />
               </button>
             </div>
           </div>
@@ -82,13 +81,13 @@ export default function About() {
             <div className="flex flex-col sm:flex-row gap-2">
               <button
                 className="flex flex-row gap-2  p-3 rounded-full bg-[#0251fc]"
-                onClick={() => (window.location.href = "tel:+902324842829")}
+                onClick={() => (window.location.href = "https://discord.gg/baseballers")}
               >
                 <FontAwesomeIcon
                   icon={faDiscord}
                   className="text-2xl "
                   style={{ color: "#ffffff" }}
-                />{" "}
+                />
               </button>
               <button
                 className="flex flex-row gap-2  p-3 rounded-full bg-[#0251fc]"
@@ -104,13 +103,13 @@ export default function About() {
               </button>
               <button
                 className="flex flex-row gap-2  p-3 rounded-full bg-[#0251fc]"
-                onClick={() => (window.location.href = "tel:+905554801111")}
+                onClick={() => (window.location.href = "https://twitter.com/baseballersbase")}
               >
                 <FontAwesomeIcon
                   icon={faTwitter}
                   className="text-2xl "
                   style={{ color: "#ffffff" }}
-                />{" "}
+                />
               </button>
             </div>
           </div>
@@ -136,7 +135,7 @@ export default function About() {
             <div className="flex basis-2/3">
               <p className="text-secondaryColor text-sm leading-5 text-start">
                 Problems trying to resolve the conflict between the two major
-                realms of Classical physics: Newtonian mechanics{" "}
+                realms of Classical physics: Newtonian mechanics
               </p>
             </div>
           </div>
@@ -233,39 +232,6 @@ export default function About() {
                   <h2 className="text-xl font-bold">Airdrop</h2>
                 </Progress>
               </Progress>
-
-              {
-                /*
-<div className="text-center">With Labels</div>
-              <Progress multi>
-                <Progress bar value="15">
-                  <h2 className="text-xl font-bold">Meh</h2>
-                </Progress>
-                <Progress animated bar color="success" value="35">
-                  <h2 className="text-xl font-bold"> Wow!</h2>
-                </Progress>
-                <Progress animated bar color="warning" value="25">
-                  <h2 className="text-xl font-bold"> %25</h2>
-                </Progress>
-                <Progress animated bar color="danger" value="25">
-                  <h2 className="text-xl font-bold"> %100 SOLD OUT!</h2>
-                </Progress>
-              </Progress>
-              <div className="text-center">Stripes and Animations</div>
-              <Progress multi>
-                <Progress bar striped value="15">
-                  <h2 className="text-xl font-bold"> PROGRESS</h2>
-                </Progress>
-                <Progress animated bar color="success" value="50">
-                  <h2 className="text-xl font-bold"> %100 SOLD OUT!</h2>
-                </Progress>
-                <Progress animated bar color="info" value="35">
-                  <h2 className="text-xl font-bold"> PLAIN</h2>
-                </Progress>
-              </Progress>
-                */
-              }
-
             </div>
           </section>
         </div>

@@ -1,15 +1,12 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import {
   faBars,
-  faBaseball,
-  faBaseballBatBall,
-  faExchange,
   faVolumeHigh,
   faVolumeXmark,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
-203682;
+import HeaderNavBar from "../components/HeaderNavBar";
+
 export default function Header() {
   const [isNavVisible, setIsNavVisible] = useState(false);
 
@@ -34,99 +31,40 @@ export default function Header() {
       <div>
         <audio ref={audioRef} src="sound.mp3" id="player" autoPlay loop />
       </div>
-
       <div className="container ">
         <div className="flex flex-col sm:flex-row gap-5 items-center justify-between">
-          <div>
+          <div className="flex items-center basis-1/12">
             <img
               src="/logo-transparent.png"
               className="lg:max-w-[80px] max-w-[80px] object-contain  "
             />
           </div>
-          <nav className=" hidden lg:flex flex-col sm:flex-row justify-between gap-3 basis-2/6 header-nav ">
-            <Link to="/">
-              {" "}
-              <button className="  hover:text-[#203682]">Home</button>
-            </Link>
-            <Link to="/about">
-              <button>About</button>
-            </Link>{" "}
-            <Link to="/team">
-              {" "}
-              <button>Team</button>
-            </Link>
-            <Link to="/contact">
-              <button>Contact</button>{" "}
-            </Link>
-            <Link to="/faq">
-              <button>FAQ</button>{" "}
-            </Link>
+          <nav className="hidden lg:flex flex-col sm:flex-row justify-between gap-3 header-nav basis-6/12">
+            <HeaderNavBar />
           </nav>
-          <div className="flex  flex-row justify-between gap-5 basis-1/12 items-center ">
-            <button>
-              <FontAwesomeIcon
-                icon={faExchange}
-                className="text-2xl "
-                style={{ color: "#203682" }}
-              />
-            </button>
-            <button
-              onClick={() => (window.location.href = "tel:+902324842829")}
-            >
-              <FontAwesomeIcon
-                icon={faBaseball}
-                className="text-2xl "
-                style={{ color: "#203682" }}
-              />
-            </button>
-            <button
-              onClick={() => (window.location.href = "tel:+902324842829")}
-            >
-              <FontAwesomeIcon
-                icon={faBaseballBatBall}
-                className="text-2xl "
-                style={{ color: "#203682" }}
-              />
-            </button>
+          <div className="flex  flex-row justify-between gap-5 items-center basis-1/12">
             <button
               onClick={togglePlay}
             >
               <FontAwesomeIcon
                 icon={isPlaying ? faVolumeHigh : faVolumeXmark}
                 className="text-2xl "
-                style={{ color: "#203682" }}
+                style={{ color: "#0251fc" }}
               />
             </button>
             <button
               className="flex lg:hidden text-2xl"
               onClick={toggleNavVisibility}
-              style={{ color: "#203682" }}
+              style={{ color: "#0251fc" }}
             >
               <FontAwesomeIcon icon={faBars} className="text-4xl" />
             </button>
           </div>
         </div>
         <nav
-          className={` mobile-menu flex flex-col justify-between gap-3 items-center my-2 header-nav ${isNavVisible ? "" : "hidden"
-            }`}
+          className={`mobile-menu flex flex-col justify-between gap-3 items-center my-2 header-nav lg:hidden ${isNavVisible ? "" : "hidden"}`}
         >
-          <Link to="/">
-            {" "}
-            <button className="  hover:text-[#203682]">Home</button>
-          </Link>
-          <Link to="/about">
-            <button>About</button>
-          </Link>{" "}
-          <Link to="/team">
-            {" "}
-            <button>Team</button>
-          </Link>
-          <Link to="/contact">
-            <button>Contact</button>{" "}
-          </Link>
-          <Link to="/faq">
-            <button>FAQ</button>{" "}
-          </Link>
+          <HeaderNavBar />
         </nav>
       </div>
     </div>

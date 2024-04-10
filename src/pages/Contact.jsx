@@ -1,10 +1,8 @@
 import {
   faFacebook,
   faInstagram,
-  faLinkedin,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import { faFax, faMailBulk, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useForm } from "react-hook-form";
 export default function Contact() {
@@ -30,7 +28,7 @@ export default function Contact() {
           </h2>
           <h4 className="text-secondaryColor text-xl leading-8 md:w-[607px] w-[307px] text-center">
             Problems trying to resolve the conflict between the two major realms
-            of Classical physics:{" "}
+            of Classical physics:
           </h4>
           <button
             onClick={showForm}
@@ -38,7 +36,6 @@ export default function Contact() {
           >
             YOUR MESSAGE
           </button>
-         
           <div className="flex flex-row gap-1">
             <button className="hover:text-white hover:bg-gray-300 rounded-full p-2 bg-[#203682]">
               <FontAwesomeIcon
@@ -47,7 +44,6 @@ export default function Contact() {
                 style={{ color: "#ffffff" }}
               />
             </button>
-
             <button className="hover:text-white hover:bg-gray-300 rounded-full p-2 bg-[#203682]">
               <FontAwesomeIcon
                 icon={faFacebook}
@@ -62,7 +58,6 @@ export default function Contact() {
                 style={{ color: "#ffffff" }}
               />
             </button>
-            
           </div>
           <form
             id="contactForm"

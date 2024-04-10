@@ -6,7 +6,7 @@ import Footer from "./layouts/Footer";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
 import About from "./pages/About";
-import Team from "./pages/Team";
+//import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import AnimatedCursor from "react-animated-cursor";
 
@@ -57,9 +57,13 @@ function App() {
         <Route path="/about" exact>
           <About />
         </Route>
+        {/*
+
         <Route path="/team" exact>
           <Team />
         </Route>
+
+        */}
         <Route path="/contact" exact>
           <Contact />
         </Route>
