@@ -68,7 +68,7 @@ export default function About() {
       <div className="container collection-text ">
         <div className="pt-[100px]  ">
           <p className="text-sm leading-5 text-[#E74040] mb-3">
-            Problems trying
+          Say goodbye to network congestion
           </p>
 
           <div className="flex md:flex-row flex-col justify-between gap-[80px]">
@@ -129,8 +129,7 @@ export default function About() {
             Big Companies Are Here
           </h2>
           <p className="text-sm text-secondaryColor leading-5 ">
-            Problems trying to resolve the conflict between the two major realms
-            of Classical physics: Newtonian mechanics
+          Base is the diamond where legends are made, and we’re swinging for that 1000x grand slam. Join our community and be part of the BASE tribe and revolution who are ready to play the long game.
           </p>
         </div>
         <div className="py-5">
