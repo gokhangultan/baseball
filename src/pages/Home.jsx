@@ -280,9 +280,8 @@ export default function Home() {
         </div>
       </section>
       <section className="home-programs container flex flex-col text-center gap-3">
-        <h1 className="font-bold text-4xl">FAQ</h1>
+        <h1 className="font-bold text-4xl"></h1>
         <h2 className="font-bold text-2xl text-[#0251fc]">
-          Will you hit BASE and a home run or you wait until it’s SOL(D) out?
         </h2>
       </section>
     </div>

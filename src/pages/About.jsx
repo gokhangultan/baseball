@@ -65,7 +65,7 @@ export default function About() {
         </div>
       </section>
 
-      <div className="container collection-text">
+      <div className="container collection-text ">
         <div className="pt-[100px]  ">
           <p className="text-sm leading-5 text-[#E74040] mb-3">
             Problems trying
@@ -74,14 +74,12 @@ export default function About() {
           <div className="flex md:flex-row flex-col justify-between gap-[80px]">
             <div className="flex basis-1/3">
               <h3 className="font-bold text-2xl leading-8 text-[#0251fc]">
-                Met minim Mollie non desert Alamo est sit cliquey dolor do met
-                sent.
+              Base ballers are 1000 random degens that play on the base chain. 
               </h3>
             </div>
             <div className="flex basis-2/3">
               <p className="text-secondaryColor text-sm leading-5 text-start">
-                Problems trying to resolve the conflict between the two major
-                realms of Classical physics: Newtonian mechanics
+              Will you hit BASE and a home run or you wait until it’s SOL(D) out? BASE is designed to hit that 1000x grand slam building a community for those that want to play $BALL. 
               </p>
             </div>
           </div>
