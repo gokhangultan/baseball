@@ -64,76 +64,9 @@ export default function About() {
           </div>
         </div>
       </section>
-
-      <div className="container collection-text ">
-        <div className="pt-[100px]  ">
-          <p className="text-sm leading-5 text-[#E74040] mb-3">
-          Say goodbye to network congestion
-          </p>
-
-          <div className="flex md:flex-row flex-col justify-between gap-[80px]">
-            <div className="flex basis-1/3">
-              <h3 className="font-bold text-2xl leading-8 text-[#0251fc]">
-              Base ballers are 1000 random degens that play on the base chain. 
-              </h3>
-            </div>
-            <div className="flex basis-2/3">
-              <p className="text-secondaryColor text-sm leading-5 text-start">
-              Will you hit BASE and a home run or you wait until it’s SOL(D) out? BASE is designed to hit that 1000x grand slam building a community for those that want to play $BALL. 
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className=" text-center py-5 ">
-          <div className="flex md:flex-row flex-col gap-3 justify-between">
-            <div className="flex-col">
-              <h1 className="font-bold text-6xl leading-[80px] text-[#0251fc]">
-                15K
-              </h1>
-              <h5 className="text-base text-secondaryColor font-bold leading-6">
-                Happy Customers
-              </h5>
-            </div>
-            <div>
-              <h1 className="font-bold text-6xl leading-[80px] text-[#0251fc]">
-                150K
-              </h1>
-              <h5 className="text-base text-secondaryColor font-bold leading-6">
-                Monthly Visitors
-              </h5>
-            </div>
-            <div>
-              <h1 className="font-bold text-6xl leading-[80px] text-[#0251fc]">
-                15
-              </h1>
-              <h5 className="text-base text-secondaryColor font-bold leading-6">
-                Countries Worldwide
-              </h5>
-            </div>
-            <div>
-              <h1 className="font-bold text-6xl leading-[80px] text-[#0251fc]">
-                100+
-              </h1>
-              <h5 className="text-base text-secondaryColor font-bold leading-6">
-                Top Partners
-              </h5>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="bg-[#242424] text-white  py-[100px] ">
-        <div className="flex flex-col text-center gap-5  ">
-          <h2 className="text-[#0251fc] font-bold text-[40px] leading-[40px]">
-            Big Companies Are Here
-          </h2>
-          <p className="text-sm text-secondaryColor leading-5 ">
-          Base is the diamond where legends are made, and we’re swinging for that 1000x grand slam. Join our community and be part of the BASE tribe and revolution who are ready to play the long game.
-          </p>
-        </div>
-        <div className="py-5">
-          <section className="container py-5">
+      <div className="bg-[#242424] text-white  ">
+        <div className="">
+          <section className="container ">
             <div className="flex flex-col gap-3 justify-center align-middle text-center">
               <h1 className="font-bold text-4xl">RoadMap</h1>
               <h2 className=" text-xl text-[#0251fc]">
