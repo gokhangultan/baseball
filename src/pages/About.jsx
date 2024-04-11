@@ -11,25 +11,32 @@ import {
 export default function About() {
   return (
     <div className=" bg-[#242424] text-white  ">
-      <section className="base-ball container ">
+      <section className="about-us container">
         <div className="flex flex-col md:flex-row gap-5 items-center">
           <img
-            src="/baseball-mlb.gif"
+            src="/ballBounce.gif"
             className="rounded-lg w-[300px] lg:w-[600px] "
           ></img>
           <div className="flex-col flex items-center text-center gap-3 justify-center ">
-            <h1 className="font-bold text-4xl">About $BALL</h1>
+            <h1 className="font-bold text-4xl">About BA$E</h1>
             <h2 className="font-bold text-2xl text-[#0251fc]">
-              Lorem ipsum proin gravida nibh vel velit auctor aliquet.
+              Base is the diamond where legends are made
             </h2>
             <p>
-              Firmamız 1993 yılında İzmir'de Sami Zeybek ve Vildan Zeybek
-              tarafından OYAK Sigorta Acenteliği olarak kurulmuştur. Kurulduğu
-              günden beri sektörün öncü şirketlerinin acenteliğini yapmıştır.
-              Güncel olarak İzmir'de profesyonel olarak acenteliğe devam
-              etmektedir.
+              Ready to knock it out of the park with the funkiest team in the crypto league?
+              Ba$eballers is leading the game, minting a squad of 1000 BASE-loving degens who play $BALL on the Base Chain
             </p>
             <div className="flex flex-col sm:flex-row gap-2">
+              <button
+                className="flex flex-row gap-2  p-3 rounded-full bg-[#0251fc]"
+                onClick={() => (window.location.href = "https://twitter.com/baseballersbase")}
+              >
+                <FontAwesomeIcon
+                  icon={faTwitter}
+                  className="text-2xl "
+                  style={{ color: "#ffffff" }}
+                />
+              </button>
               <button
                 className="flex flex-row gap-2  p-3 rounded-full bg-[#0251fc]"
                 onClick={() => (window.location.href = "https://discord.gg/baseballers")}
@@ -52,73 +59,12 @@ export default function About() {
                   style={{ color: "#ffffff" }}
                 />
               </button>
-              <button
-                className="flex flex-row gap-2  p-3 rounded-full bg-[#0251fc]"
-                onClick={() => (window.location.href = "https://twitter.com/baseballersbase")}
-              >
-                <FontAwesomeIcon
-                  icon={faTwitter}
-                  className="text-2xl "
-                  style={{ color: "#ffffff" }}
-                />
-              </button>
+
             </div>
           </div>
-        </div>
-        <div className="flex flex-col md:flex-row gap-5 items-center">
-          <div className="flex-col flex items-center text-center gap-3 justify-center ">
-            <h1 className="font-bold text-4xl">About $BALL</h1>
-            <h2 className="font-bold text-2xl text-[#0251fc]">
-              Lorem ipsum proin gravida nibh vel velit auctor aliquet.
-            </h2>
-            <p>
-              Firmamız 1993 yılında İzmir'de Sami Zeybek ve Vildan Zeybek
-              tarafından OYAK Sigorta Acenteliği olarak kurulmuştur. Kurulduğu
-              günden beri sektörün öncü şirketlerinin acenteliğini yapmıştır.
-              Güncel olarak İzmir'de profesyonel olarak acenteliğe devam
-              etmektedir.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-2">
-              <button
-                className="flex flex-row gap-2  p-3 rounded-full bg-[#0251fc]"
-                onClick={() => (window.location.href = "https://discord.gg/baseballers")}
-              >
-                <FontAwesomeIcon
-                  icon={faDiscord}
-                  className="text-2xl "
-                  style={{ color: "#ffffff" }}
-                />
-              </button>
-              <button
-                className="flex flex-row gap-2  p-3 rounded-full bg-[#0251fc]"
-                onClick={() =>
-                  (window.location.href = "mailto:bilgi@sigortacozum.com.tr")
-                }
-              >
-                <FontAwesomeIcon
-                  icon={faTelegram}
-                  className="text-2xl "
-                  style={{ color: "#ffffff" }}
-                />
-              </button>
-              <button
-                className="flex flex-row gap-2  p-3 rounded-full bg-[#0251fc]"
-                onClick={() => (window.location.href = "https://twitter.com/baseballersbase")}
-              >
-                <FontAwesomeIcon
-                  icon={faTwitter}
-                  className="text-2xl "
-                  style={{ color: "#ffffff" }}
-                />
-              </button>
-            </div>
-          </div>
-          <img
-            src="/baseball-run.gif"
-            className="rounded-lg w-[300px] lg:w-[600px] "
-          ></img>
         </div>
       </section>
+
       <div className="container collection-text">
         <div className="pt-[100px]  ">
           <p className="text-sm leading-5 text-[#E74040] mb-3">

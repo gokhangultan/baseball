@@ -54,7 +54,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex basis-[3/5]">
-          <img src="/ballBounce.gif" />
+          <img src="/ballHit.gif" />
         </div>
       </div>
       <div className="home-info flex flex-col items-center bg-[url('/info-bg.jpg')] my-10">
@@ -84,7 +84,7 @@ export default function Home() {
       <section className="about-us container my-10 py-5">
         <div className="flex flex-col md:flex-row gap-5 items-center">
           <img
-            src="/ballHit.gif"
+            src="/ballBounce.gif"
             className="rounded-lg w-[300px] lg:w-[600px] "
           ></img>
           <div className="flex-col flex items-center text-center gap-3 justify-center ">
@@ -136,6 +136,7 @@ export default function Home() {
       </section>
 
       <img src="./baseballers.png" className="py-5 w-full max-w-[1450px] mx-auto my-0" />
+      {/* 
       <section className="container py-5">
         <div className="text-center flex flex-col gap-2 justify-center py-2 items-center">
           <h1 className="font-bold text-4xl">Token Info</h1>
@@ -180,6 +181,7 @@ export default function Home() {
           </tbody>
         </Table>
       </section>
+      */}
       <section className="base-ball container my-10">
         <div className="flex flex-col md:flex-row gap-5 items-center">
           <img
