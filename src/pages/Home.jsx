@@ -96,7 +96,7 @@ export default function Home() {
               Ready to knock it out of the park with the funkiest team in the crypto league?
               Ba$eballers is leading the game, minting a squad of 1000 BASE-loving degens who play $BALL on the Base Chain
             </p>
-            <div className="flex flex-col sm:flex-row gap-2">
+            <div className="flex flex-row gap-2">
               <button
                 className="flex flex-row gap-2  p-3 rounded-full bg-[#0251fc]"
                 onClick={() => (window.location.href = "https://twitter.com/baseballersbase")}

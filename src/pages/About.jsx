@@ -26,7 +26,7 @@ export default function About() {
               Ready to knock it out of the park with the funkiest team in the crypto league?
               Ba$eballers is leading the game, minting a squad of 1000 BASE-loving degens who play $BALL on the Base Chain
             </p>
-            <div className="flex flex-col sm:flex-row gap-2">
+            <div className="flex flex-row gap-2 py-5">
               <button
                 className="flex flex-row gap-2  p-3 rounded-full bg-[#0251fc]"
                 onClick={() => (window.location.href = "https://twitter.com/baseballersbase")}
@@ -80,13 +80,13 @@ export default function About() {
               </Progress>
               <div className="text-center">Phase 1</div>
               <Progress multi>
-                <Progress animated bar color="success" value="100" >
+                <Progress animated bar color="danger" value="100" >
                   <h2 className="text-xl font-bold">Community Take Over</h2>
                 </Progress>
               </Progress>
               <div className="text-center">Phase 2</div>
               <Progress multi>
-                <Progress animated bar color="success" value="100" >
+                <Progress animated bar color="danger" value="100" >
                   <h2 className="text-xl font-bold">Organic Growth</h2>
                 </Progress>
               </Progress>

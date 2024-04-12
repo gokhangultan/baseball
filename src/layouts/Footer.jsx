@@ -19,7 +19,7 @@ export default function Footer() {
             <div>
               <img
                 src="/logo-transparent.png"
-                className="lg:max-w-[120px] max-w-[120px] object-contain  "
+                className="lg:max-w-[120px] max-w-[120px] object-contain hidden sm:flex "
               />
             </div>
           </Link>
