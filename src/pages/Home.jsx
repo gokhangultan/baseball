@@ -230,7 +230,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row gap-5 items-center">
+        <div className="flex flex-col-reverse md:flex-row gap-5 items-center mt-3">
           <div className="flex-col flex items-center text-center gap-3 justify-center ">
             <h1 className="font-bold text-4xl"> $BALL</h1>
             <h2 className="font-bold text-2xl text-[#0251fc]">

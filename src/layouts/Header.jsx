@@ -6,16 +6,24 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import HeaderNavBar from "../components/HeaderNavBar";
+import { useEffect } from "react";
 
 export default function Header() {
+
+  const audioRef = useRef(null);
+
   const [isNavVisible, setIsNavVisible] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
+
 
   const toggleNavVisibility = () => {
     setIsNavVisible(!isNavVisible);
   };
 
-  const audioRef = useRef(null);
-  const [isPlaying, setIsPlaying] = useState(false);
+  const clickListenerFn = () => {
+    togglePlay();
+    window.removeEventListener('click', clickListenerFn);
+  }
 
   const togglePlay = () => {
     if (isPlaying) {
@@ -26,10 +34,16 @@ export default function Header() {
     setIsPlaying(!isPlaying);
   };
 
+  useEffect(() => {
+    window.addEventListener('load', function () {
+      window.addEventListener('click', clickListenerFn);
+    });
+  }, [])
+
   return (
     <div className="bg-[#242424] text-white py-2">
       <div>
-        <audio ref={audioRef} src="sound.mp3" id="player" autoPlay loop />
+        <audio ref={audioRef} src="sound.mp3" id="player" loop />
       </div>
       <div className="container ">
         <div className="flex flex-col sm:flex-row gap-5 items-center justify-between">
@@ -40,7 +54,7 @@ export default function Header() {
             />
           </div>
           <nav className="hidden lg:flex flex-col sm:flex-row justify-between gap-3 header-nav basis-6/12">
-            <HeaderNavBar />
+            <HeaderNavBar setIsNavVisible={setIsNavVisible} />
           </nav>
           <div className="flex  flex-row justify-between gap-5 items-center basis-1/12">
             <button
@@ -64,7 +78,7 @@ export default function Header() {
         <nav
           className={`mobile-menu flex flex-col justify-between gap-3 items-center my-2 header-nav lg:hidden ${isNavVisible ? "" : "hidden"}`}
         >
-          <HeaderNavBar />
+          <HeaderNavBar setIsNavVisible={setIsNavVisible} />
         </nav>
       </div>
     </div>
