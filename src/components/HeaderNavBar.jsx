@@ -10,12 +10,8 @@ export default function HeaderNavBar({ setIsNavVisible }) {
             <Link to="/about" onClick={() => setIsNavVisible(false)} >
                 <button className="hover:text-[#203682]">About</button>
             </Link>
-            <Link to="/" onClick={() => setIsNavVisible(false)} >
-                <button className="hover:text-[#203682]">How To</button>
-            </Link>
-            <Link to="/" onClick={() => setIsNavVisible(false)} >
-                <button className="hover:text-[#203682]">NFTs</button>
-            </Link>
+         
+         
             <a onClick={() => setIsNavVisible(false)} href="https://twitter.com/baseballersbase" target="_blank">
                 <button className="hover:text-[#203682]">Twitter</button>
             </a>
