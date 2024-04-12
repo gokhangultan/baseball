@@ -238,7 +238,7 @@ export default function Home() {
             <h2 className="font-bold text-2xl text-[#0251fc]">
               Join our community and be part of the BASE tribe and revolution who are ready to play the long game.            </h2>
 
-            <div className="flex flex-col sm:flex-row gap-2">
+            <div className="flex flex-row gap-2">
               <button
                 className="flex flex-row gap-2  p-3 rounded-full bg-[#0251fc]"
                 onClick={() => (window.location.href = "https://discord.gg/baseballers")}
