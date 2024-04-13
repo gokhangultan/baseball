@@ -120,7 +120,7 @@ export default function Home() {
               <button
                 className="flex flex-row gap-2  p-3 rounded-full bg-[#0251fc]"
                 onClick={() =>
-                  (window.location.href = "mailto:bilgi@sigortacozum.com.tr")
+                  (window.location.href = "https://t.me/baseballersofficial")
                 }
               >
                 <FontAwesomeIcon
@@ -208,7 +208,7 @@ export default function Home() {
               <button
                 className="flex p-3 rounded-full bg-[#0251fc]"
                 onClick={() =>
-                  (window.location.href = "mailto:bilgi@sigortacozum.com.tr")
+                  (window.location.href = "https://t.me/baseballersofficial")
                 }
               >
                 <FontAwesomeIcon
@@ -252,7 +252,7 @@ export default function Home() {
               <button
                 className="flex flex-row gap-2  p-3 rounded-full bg-[#0251fc]"
                 onClick={() =>
-                  (window.location.href = "mailto:bilgi@sigortacozum.com.tr")
+                  (window.location.href = "https://t.me/baseballersofficial")
                 }
               >
                 <FontAwesomeIcon

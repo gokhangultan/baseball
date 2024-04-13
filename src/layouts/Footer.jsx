@@ -43,7 +43,7 @@ export default function Footer() {
                   />
                 </button>
               </a>
-              <a href="" target="_blank">
+              <a href="https://t.me/baseballersofficial" target="_blank">
                 <button className="hover:text-white hover:bg-gray-300 rounded-full p-2">
                   <FontAwesomeIcon
                     icon={faTelegram}

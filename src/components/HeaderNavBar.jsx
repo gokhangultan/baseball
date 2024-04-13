@@ -18,7 +18,7 @@ export default function HeaderNavBar({ setIsNavVisible }) {
             <a onClick={() => setIsNavVisible(false)} href="https://discord.gg/baseballers" target="_blank">
                 <button className="hover:text-[#203682]">Discord</button>
             </a>
-            <a onClick={() => setIsNavVisible(false)} href="https://discord.gg/baseballers" target="_blank">
+            <a onClick={() => setIsNavVisible(false)} href="https://t.me/baseballersofficial" target="_blank">
                 <button className="hover:text-[#203682]">Telegram</button>
             </a>
         </>
