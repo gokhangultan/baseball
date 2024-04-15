@@ -46,11 +46,14 @@ export default function Home() {
           </div>
 
           <div>
-            <Link to="/">
-              <button className="bg-[#0251fc] px-4 py-3 rounded-lg text-white font-bold">
-                MINT
-              </button>
-            </Link>
+           
+          <a href="https://forms.gle/K9ffAbTfAofdSxbQ8" target="_blank">
+  <button className="bg-[#0251fc] px-4 py-3 rounded-lg text-white font-bold">
+    PRIVATE SALE
+  </button>
+</a>
+
+          
           </div>
         </div>
         <div className="flex basis-[3/5]">
