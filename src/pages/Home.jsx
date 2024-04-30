@@ -3,9 +3,14 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import {
   Table,
 } from "reactstrap";
+import {
+  faBars,
+  faGear
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faDiscord,
+  faSquareXTwitter,
   faTelegram,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
@@ -137,7 +142,7 @@ export default function Home() {
       </section>
 
       <img src="./baseballers.png" className="py-5 w-full max-w-[1450px] mx-auto my-0" />
-      {/* 
+      
       <section className="container py-5">
         <div className="text-center flex flex-col gap-2 justify-center py-2 items-center">
           <h1 className="font-bold text-4xl">Token Info</h1>
@@ -145,35 +150,99 @@ export default function Home() {
             Will you hit BASE and a home run or you wait until it’s SOL(D) out?
           </h2>
         </div>
+<div className="flex sm:flex-row flex-col justify-between gap-3 pt-5">
+<img src="./tokenomic.gif" className="py-5 w-50 mx-auto my-0 basis-1/2" />
+<div className="basis-1/2 ">
+ <div className="flex justify-center align-middle text-center gap-3">
+ <img src="./newinfo.jpeg" className="py-5 w-25 mx-auto my-0 h-25 rounded-2xl" />
 
-        <Table dark className="text-center text-2xl ">
-          <thead className="text-center ">
+    <div className="flex flex-col gap-2 text-center">
+          <h1 className="text-3xl bold">
+             Baseballers Party
+          </h1>
+<div className="flex gap-2 flex-row justify-between items-center">
+<div>
+    
+<a href="https://warpcast.com/cryptoarch" target="_blank"> <img src="./warpcast.png" className="py-5 w-8 mx-auto my-0 "  /></a></div>
+<a href="https://discord.com/invite/baseballers" target="_blank">    <FontAwesomeIcon
+                  icon={faDiscord}
+                  className="text-3xl"
+                  style={{ color: "#ffffff" }}
+                /></a>
+                 <a href="https://t.me/baseballersofficial" target="_blank"> <FontAwesomeIcon
+                  icon={faTelegram}
+                  className="text-3xl"
+                  style={{ color: "#ffffff" }}
+                /></a>
+               <div><a href="https://opensea.io/collection/baseballers-party" target="_blank"><img src="./opensea.png" className="py-5 w-8 mx-auto my-0 " /></a></div> 
+
+                <div><a href="https://basescan.org/address/0x7800fcca67d075d11c99106d4a2625a4a5d052b9" target="_blank"><img src="./basescan.png" className="py-5 w-8 mx-auto my-0 " /></a></div>
+                <FontAwesomeIcon
+                  icon={faGear}
+                  className="text-3xl"
+                  style={{ color: "#ffffff" }}
+                />
+</div>
+<p>Base is the diamond where legends are made! Ready to knock it out of the park and get based with the funkiest Meme League Baseball team. Baseballers is leading the game with a squad of Base-loving degens who play BALL on the Base chain. 20% for Pumpementals!!</p>
+<Table dark className="text-center text-2xl justify-center align-middle ">
+          <thead className="text-center justify-center  ">
             <tr >
-              <th>Token name</th>
-              <th>$BALL </th>
+              <th>PARTY MEMBERS
+</th>
+              <th>40%
+ </th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th scope="row">Token chain</th>
-              <td>Base </td>
+              <th scope="row">LP POSITION
+</th>
+              <td>40% </td>
 
             </tr>
             <tr>
-              <th scope="row">Supply</th>
-              <td>1000 unique BALLER$</td>
+              <th scope="row">RESERVE</th>
+              <td>20% <a href="https://basescan.org/address/0x5Ea6D943646a5A5Ba59E79C2Edbd7861F58744bc" target="_blank"></a>
+</td>
+
+            </tr>
+        
+         
+       
+          </tbody>
+        </Table>
+       
+</div>
+
+</div>
+</div>
+
+</div>
+<Table dark className="text-center text-2xl justify-center align-middle ">
+          <thead className="text-center justify-center  ">
+            <tr >
+              <th>TOTAL SUPPLY:</th>
+              <th>1 BILLION TOKENS </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">PRESALE:</th>
+              <td>50% </td>
 
             </tr>
             <tr>
-              <th scope="row">Traits</th>
-              <td>150</td>
+              <th scope="row">NO TAX!!!</th>
+              <td>NO TEAM TOKENS!!!
+</td>
 
             </tr>
             <tr>
-              <th scope="row">Contract address</th>
-              <td>XXXXX</td>
+              <th scope="row">CA:</th>
+              <td>COMING SOON</td>
 
             </tr>
+         
             <tr>
               <th scope="row">Token royalties</th>
               <td>5% 2,5 artist 2,5 to holders</td>
@@ -181,8 +250,9 @@ export default function Home() {
             </tr>
           </tbody>
         </Table>
+       
       </section>
-      */}
+      
       <section className="base-ball container my-10">
         <div className="flex flex-col md:flex-row gap-5 items-center">
           <img
