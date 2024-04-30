@@ -154,7 +154,6 @@ export default function Home() {
 <img src="./tokenomic.gif" className="py-5 w-50 mx-auto my-0 basis-1/2" />
 <div className="basis-1/2 ">
  <div className="flex justify-center align-middle text-center gap-3">
- <img src="./newinfo.jpeg" className="py-5 w-25 mx-auto my-0 h-25 rounded-2xl" />
 
     <div className="flex flex-col gap-2 text-center">
           <h1 className="text-3xl bold">
@@ -174,9 +173,6 @@ export default function Home() {
                   className="text-3xl"
                   style={{ color: "#ffffff" }}
                 /></a>
-               <div><a href="https://opensea.io/collection/baseballers-party" target="_blank"><img src="./opensea.png" className="py-5 w-8 mx-auto my-0 " /></a></div> 
-
-                <div><a href="https://basescan.org/address/0x7800fcca67d075d11c99106d4a2625a4a5d052b9" target="_blank"><img src="./basescan.png" className="py-5 w-8 mx-auto my-0 " /></a></div>
                 <FontAwesomeIcon
                   icon={faGear}
                   className="text-3xl"
@@ -222,15 +218,11 @@ export default function Home() {
           <thead className="text-center justify-center  ">
             <tr >
               <th>TOTAL SUPPLY:</th>
-              <th>1 BILLION TOKENS </th>
+              <th>69 MILLION TOKENS </th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <th scope="row">PRESALE:</th>
-              <td>50% </td>
-
-            </tr>
+     
             <tr>
               <th scope="row">NO TAX!!!</th>
               <td>NO TEAM TOKENS!!!
@@ -243,11 +235,7 @@ export default function Home() {
 
             </tr>
          
-            <tr>
-              <th scope="row">Token royalties</th>
-              <td>5% 2,5 artist 2,5 to holders</td>
-
-            </tr>
+      
           </tbody>
         </Table>
        
