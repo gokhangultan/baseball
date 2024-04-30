@@ -47,9 +47,9 @@ export default function Home() {
 
           <div>
            
-          <a href="https://forms.gle/K9ffAbTfAofdSxbQ8" target="_blank">
+          <a href="https://base.party.app/party/0x7800fcca67d075d11c99106d4a2625a4a5d052b9" target="_blank">
   <button className="bg-[#0251fc] px-4 py-3 rounded-lg text-white font-bold">
-    PRIVATE SALE
+    PARTY APP SALE
   </button>
 </a>
 
@@ -66,7 +66,7 @@ export default function Home() {
             Say goodbye to network congestion with failed transactions and gas wars.
           </h2>
           <h1 className="font-bold leading-8 uppercase text-3xl tracking-widest">
-            Ba$e Ballers are 1000 random degens that play on the Base Chain
+          BA$E BALLERS ARE DEGENS THAT PLAY ON THE BASE CHAIN
           </h1>
         </div>
 
@@ -93,11 +93,9 @@ export default function Home() {
           <div className="flex-col flex items-center text-center gap-3 justify-center ">
             <h1 className="font-bold text-4xl">About BA$E</h1>
             <h2 className="font-bold text-2xl text-[#0251fc]">
-              Base is the diamond where legends are made
-            </h2>
+            Base is the diamond where legend are made!            </h2>
             <p>
-              Ready to knock it out of the park with the funkiest team in the crypto league?
-              Ba$eballers is leading the game, minting a squad of 1000 BASE-loving degens who play $BALL on the Base Chain
+            Ready to knock it out of the park and get based with the funkiest Meme League Baseball team. Baseballers is leading the game with a squad of Base-loving degens who play BALL on the Base chain.
             </p>
             <div className="flex flex-row gap-2">
               <button
@@ -195,8 +193,7 @@ export default function Home() {
             <h1 className="font-bold text-4xl">$BALL</h1>
             <h2 className="font-bold text-2xl text-[#0251fc]">
               Ready to knock it out of the park with the funkiest team in the crypto league?</h2>
-            <h2 className="font-bold text-2xl text-[#0251fc]">
-              BASEBALLERS is leading the game, rallying a squad of 1000 BASE-loving degens who play $BALL on the base chain.</h2>
+          
             <div className="flex gap-2">
               <button
                 className="flex p-3 rounded-full bg-[#0251fc]"
