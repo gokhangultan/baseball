@@ -12,7 +12,7 @@ export default function HeaderNavBar({ setIsNavVisible }) {
             </Link>
          
             <a onClick={() => setIsNavVisible(false)} href="https://dexscreener.com/base/0x562bfbc941cd92d6a02eb108fd4413a5b455c467" target="_blank">
-                <button className="hover:text-[#203682]">Dexscreener</button>
+                <button className="hover:text-[#203682]">Dextools</button>
             </a>
             <a onClick={() => setIsNavVisible(false)} href="https://app.uniswap.org/swap?chain=base&inputCurrency=ETH&outputCurrency=0x562bfbc941cd92d6a02eb108fd4413a5b455c467" target="_blank">
                 <button className="hover:text-[#203682]">Uniswap</button>

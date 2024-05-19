@@ -52,9 +52,9 @@ export default function Home() {
 
           <div>
            
-          <a href="https://base.party.app/party/0x7800fcca67d075d11c99106d4a2625a4a5d052b9" target="_blank">
+          <a href="https://www.dextools.io/app/en/base/pair-explorer/0x466a105e839a94c12bc8ad534d3b3a192f99c0ae?t=1716142843005" target="_blank">
   <button className="bg-[#0251fc] px-4 py-3 rounded-lg text-white font-bold">
-    PARTY APP SALE
+    BUY NOW
   </button>
 </a>
 
@@ -231,7 +231,7 @@ export default function Home() {
             </tr>
             <tr>
               <th scope="row">CA:</th>
-              <td>COMING SOON</td>
+              <td>0x562bfbc941cd92d6a02eb108fd4413a5b455c467</td>
 
             </tr>
          
